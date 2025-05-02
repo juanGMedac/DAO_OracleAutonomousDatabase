@@ -15,7 +15,7 @@ public class Persona {
     private Persona() {
     }
 
-    // Constructor para crear una nueva persona (sin ID)
+    // Constructor para crear una nueva persona (sin ID) solo para el INSERT
     public Persona(String nombre, String apellido, String email, String telefono) {
         this.nombre = nombre;
         this.apellido = apellido;
@@ -23,7 +23,7 @@ public class Persona {
         this.telefono = telefono;
     }
 
-    // Constructor completo (al leer de la BD)
+    // Constructor completo (al leer de la BD) para eliminar, actualizar o consultar
     public Persona(int id, String nombre, String apellido, String email, String telefono) {
         this.id = id;
         this.nombre = nombre;

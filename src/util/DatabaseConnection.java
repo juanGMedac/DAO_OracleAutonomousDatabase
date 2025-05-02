@@ -14,7 +14,7 @@ public class DatabaseConnection {
 
     // --- !!! IMPORTANTE: MODIFICA ESTOS VALORES !!! ---
     private static final String DB_USER = "ADMIN"; // O tu usuario de BD
-    private static final String DB_PASSWORD = "Hugosanchez@94"; // Reemplaza con tu contraseña
+    private static final String DB_PASSWORD = "PASS"; // Reemplaza con tu contraseña
     // Ruta absoluta a la carpeta del Wallet descomprimido
     // Ejemplo Windows: "C:/path/to/your/wallet_folder"
     // Ejemplo Linux/Mac: "/path/to/your/wallet_folder"
